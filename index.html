@@ -29,6 +29,9 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Font Nunito-->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,800&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -38,19 +41,18 @@
     <div class="container d-flex align-items-center">
 
       <div class="logo mr-auto">
-        <h1 class="text-light"><a href="index.html"><span>Study Club</span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <h1><a href="index.html"><span>Study Club</span></a></h1>
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li class="drop-down"><a href="">Bidang</a>
+          <li class="drop-down"><a href="#bidang">Bidang</a>
             <ul>
               <li><a href="#programming">Programming</a></li>
               <li><a href="#multimedia">Multimedia</a></li>
+              <li><a href="#networking">Networking</a></li>
             </ul>
           </li>
           <li><a href="#contact">Contact</a></li>
@@ -68,10 +70,14 @@
       <div class="row">
         <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
           <div data-aos="zoom-out">
-            <h1><span>Study Club</span></h1>
+            <h1>
+              Saling Sharing.<br>
+              Mengenai
+              <br>
+              <span id="element"></span></h1>
             <h2>Bergabunglah Bersama Kami.</h2>
             <div class="text-center text-lg-left">
-              <a href="#tentang" class="btn-get-started scrollto">Baca Selengkapnya</a>
+              <a href="#about" class="btn-get-started scrollto">Baca Selengkapnya</a>
             </div>
           </div>
         </div>
@@ -97,15 +103,16 @@
       </g>
     </svg>
 
-  </section><!-- End Hero -->
+  </section>
+  <!-- End Hero -->
 
   <main id="main">
 
     <!-- ======= tentang Section ======= -->
-    <section id="tentang" class="about">
-      <div class="container-fluid">
+    <section id="about" class="about">
+      <div class="container">
 
-        <div class="container mt-4" data-aos="fade-left">
+        <div class="mt-4" data-aos="fade-left">
           <div class="section-title" data-aos="fade-up">
             <h2>Tentang</h2>
             <p>Study Club</p>
@@ -120,68 +127,120 @@
     </section>
     <!-- End About Section -->
 
-    <!-- ======= Details Section ======= -->
-    <section id="programming" class="details">
-      <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
-          <h2>Bidang</h2>
-          <p>Programming</p>
-        </div>
+    <section id="bidang">
+      <!-- ======= Details Section ======= -->
+      <section id="programming" class="details">
+        <div class="container">
 
-        <div class="row content">
+          <div class="section-title" data-aos="fade-up">
+            <h2>Bidang</h2>
+            <p>Programming</p>
+          </div>
+
+          <div class="row content mt-2">
+            <div class="col-md-4" data-aos="fade-right">
+              <img src="assets/img/bidang/mobile-programming.svg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-8 pt-4" data-aos="fade-up">
+              <h3>Mobile Programming</h3>
+              <h5>Ionic Angular Framework</h5>
+              <p>
+                Hal hebat tentang Ionic adalah bahwa dengan satu basis kode, Anda dapat membangun untuk platform apa pun
+                hanya menggunakan HTML, CSS, dan JavaScript. Ikuti terus saat kita mempelajari dasar-dasar pengembangan
+                aplikasi Ionic dengan membuat langkah aplikasi realistis secara bertahap.
+              </p>
+            </div>
+          </div>
+
+          <div class="row content">
+            <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+              <img src="assets/img/bidang/web-programming.svg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+              <h3>Web Programming</h3>
+              <h5>Html, Css, JavaScript, MYSQL, PHP</h5>
+              <p>
+                Web programming terdiri dari dua suku kata yaitu web dan programming. Programming dapat diartikan
+                sebagai
+                proses, cara, atau pembuatan suatu program. Sedangkan web dapat diartikan sebagai jaringan komputer yang
+                terdiri dari kumpulan situs internet yang menawarkan teks, grafik, suara dan sumber daya animasi melalui
+                protokol transfer hypertext (HTTP). Jadi, web programming adalah suatu proses, cara, atau pembuatan
+                suatu
+                program berbasis web.
+              </p>
+            </div>
+          </div>
+
+          <!-- <div class="row content">
           <div class="col-md-4" data-aos="fade-right">
-            <img src="assets/img/bidang/mobile-programming.svg" class="img-fluid" alt="">
+            <img src="assets/img/bidang/undraw_data_reports_706v.svg" class="img-fluid" alt="">
           </div>
           <div class="col-md-8 pt-4" data-aos="fade-up">
-            <h3>Mobile Programming</h3>
+            <h3>Data Science</h3>
             <h5>Ionic Angular Framework</h5>
             <p>
-              Hal hebat tentang Ionic adalah bahwa dengan satu basis kode, Anda dapat membangun untuk platform apa pun hanya menggunakan HTML, CSS, dan JavaScript. Ikuti terus saat kita mempelajari dasar-dasar pengembangan aplikasi Ionic dengan membuat langkah aplikasi realistis secara bertahap.
+              Hal hebat tentang Ionic adalah bahwa dengan satu basis kode, Anda dapat membangun untuk platform apa pun
+              hanya menggunakan HTML, CSS, dan JavaScript. Ikuti terus saat kita mempelajari dasar-dasar pengembangan
+              aplikasi Ionic dengan membuat langkah aplikasi realistis secara bertahap.
             </p>
           </div>
+        </div> -->
         </div>
+      </section>
+      <!-- End Details Section -->
 
-        <div class="row content">
-          <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
-            <img src="assets/img/bidang/web-programming.svg" class="img-fluid" alt="">
+      <!-- ======= Details Section ======= -->
+      <section id="multimedia" class="details">
+        <div class="container">
+
+          <div class="section-title" data-aos="fade-up">
+            <p>Multimedia</p>
           </div>
-          <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
-            <h3>Web Programming</h3>
-            <h5>Html, Css, JavaScript, MYSQL, PHP</h5>
-            <p>
-              Web programming terdiri dari dua suku kata yaitu web dan programming. Programming dapat diartikan sebagai proses, cara, atau pembuatan suatu program. Sedangkan web dapat diartikan sebagai jaringan komputer yang terdiri dari kumpulan situs internet yang menawarkan teks, grafik, suara dan sumber daya animasi melalui protokol transfer hypertext (HTTP). Jadi, web programming adalah suatu proses, cara, atau pembuatan suatu program berbasis web.
-            </p>
+
+          <div class="row content mt-3">
+            <div class="col-md-4" data-aos="fade-right">
+              <img src="assets/img/bidang/videographer.svg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-8 pt-4" data-aos="fade-up">
+              <h3>Videography</h3>
+              <h5>- - -</h5>
+              <p>
+                Media untuk merekam suatu kejadian yang dirangkum dalam sebuah sajian gambar dan suara yang dapat kita
+                nikmati dikemudian hari baik sebagai sebuah kenangan ataupun sebagai bahan kajian untuk mempelajari apa
+                yang sudah atau pernah terjadi.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
+      <!-- End Details Section -->
+
+      <!-- ======= Details Section ======= -->
+      <section id="networking" class="details">
+        <div class="container">
+
+          <div class="section-title" data-aos="fade-up">
+            <p>Networking</p>
+          </div>
+
+          <div class="row content">
+            <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+              <img src="assets/img/bidang/undraw_nakamoto_2iv6.svg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+              <h3>Networking</h3>
+              <p>
+                Networking atau Infrastruktur jaringan adalah sekumpulan komponen fisikal dan logikal yang menyediakan
+                dasar untuk konektivitas, keamanan, routing, pengaturan, akses, dan fitur integral pada jaringan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Details Section -->
+
     </section>
-    <!-- End Details Section -->
-
-    <!-- ======= Details Section ======= -->
-    <section id="multimedia" class="details">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <p>Multimedia</p>
-        </div>
-
-        <div class="row content">
-          <div class="col-md-4" data-aos="fade-right">
-            <img src="assets/img/bidang/videographer.svg" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-8 pt-4" data-aos="fade-up">
-            <h3>Videography</h3>
-            <h5>- - -</h5>
-            <p>
-              Media untuk merekam suatu kejadian yang dirangkum dalam sebuah sajian gambar dan suara yang dapat kita nikmati dikemudian hari baik sebagai sebuah kenangan ataupun sebagai bahan kajian untuk mempelajari apa yang sudah atau pernah terjadi.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Details Section -->
-
     <!-- ======= Gallery Section ======= -->
     <!-- <section id="gallery" class="gallery">
       <div class="container">
@@ -434,7 +493,7 @@
               <div class="address">
                 <i class="icofont-google-map"></i>
                 <h4>Location:</h4>
-                <p>Kampus UNSIKA</p>
+                <p>KAMPUS UNSIKA</p>
               </div>
 
               <div class="email">
@@ -497,71 +556,10 @@
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-    <!-- <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="footer-info">
-              <h3>Study Club</h3>
-              <p>
-                Firhan Hardiansyah
-                <br><br>
-                <strong>Phone:</strong> +62 878 7957 1222<br>
-                <strong>Email:</strong> firhanhardiansyah18184@student.unsika.ac.id<br>
-              </p>
-              <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
-          </div>
-
-        </div>
-      </div>
-    </div> -->
-
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong><span>Study Club</span></strong>. All Rights Reserved
       </div>
-      <!-- <div class="credits">
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div> -->
     </div>
   </footer><!-- End Footer -->
 
@@ -581,6 +579,21 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+  <script>
+    var typed = new Typed("#element", {
+      strings: [
+        "Programming.",
+        "Networking.",
+        "Multimedia.",
+      ],
+      typeSpeed: 50,
+      startDelay: 90,
+      loop: true,
+    });
+  </script>
 
 </body>
 

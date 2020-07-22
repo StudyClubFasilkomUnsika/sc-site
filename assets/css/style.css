@@ -912,7 +912,7 @@ h5 {
 }
 
 .features .icon-box h3 a:hover {
-  color: #01036f;
+  color: #3498db;
 }
 
 .features .icon-box:hover {
@@ -1155,7 +1155,7 @@ h5 {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 16px;
-  color: #01036f;
+  color: #3498db;
   position: relative;
   padding-bottom: 10px;
 }
@@ -1175,7 +1175,7 @@ h5 {
   font-style: italic;
   display: block;
   font-size: 13px;
-  color: #01036f;
+  color: #3498db;
 }
 
 .team .member .social {
@@ -1184,7 +1184,7 @@ h5 {
 
 .team .member .social a {
   transition: color 0.3s;
-  color: #01036f;
+  color: #3498db;
 }
 
 .team .member .social a:hover {

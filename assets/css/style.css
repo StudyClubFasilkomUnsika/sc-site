@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i:hover {
-  background: #2be4a2;
+  background: #3498db;
   color: #fff;
 }
 
@@ -968,6 +968,10 @@ h5 {
   margin-top: 100px;
 }
 
+.img-c-plus-plus {
+  width: 80%;
+}
+
 .details .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -1540,7 +1544,7 @@ h5 {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #010351;
+  background: #3498db;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;

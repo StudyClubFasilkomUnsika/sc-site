@@ -1,3 +1,0 @@
-Study Club
-
-HIMTIKA UNSIKA

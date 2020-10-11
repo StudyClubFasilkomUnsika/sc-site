@@ -1412,7 +1412,7 @@ h5 {
 
 .contact .info i {
   font-size: 20px;
-  color: #3f43fd;
+  color: #3498db;
   float: left;
   width: 44px;
   height: 44px;
@@ -1429,14 +1429,14 @@ h5 {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #010483;
+  color: #3498db;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #0205a1;
+  color: #3498db;
 }
 
 .contact .info .email, .contact .info .phone {

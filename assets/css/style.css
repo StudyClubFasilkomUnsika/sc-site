@@ -438,11 +438,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   letter-spacing: .1em;
-  align-items: center;
+  text-align: center;
   text-transform: uppercase;
   font-size: 16px;
   display: inline-block;
-  padding: 16px 20px;
+  padding: 12px 20px;
   border-radius: 8px;
   transition: 0.5s;
   color: #3498db;
@@ -454,11 +454,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   letter-spacing: .1em;
-  align-items: center;
+  text-align: center;
   text-transform: uppercase;
   font-size: 16px;
   display: inline-block;
-  padding: 16px 20px;
+  padding: 12px 20px;
   border-radius: 8px;
   transition: 0.5s;
   color: #fff;
